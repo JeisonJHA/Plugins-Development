@@ -1,0 +1,10 @@
+[
+    { "keys": ["ctrl+shift+up"], "command": "delphimethodnav" },
+    { "keys": ["ctrl+shift+a"], "command": "add_tag" },
+    { "keys": ["ctrl+shift+m"], "command": "add_doc_method" },
+    { "keys": ["ctrl+shift+x"], "command": "extractmethod" },
+    { "keys": ["ctrl+shift+c"], "command": "declaremethod" },
+    { "keys": ["ctrl+shift+s"], "command": "changefunctionreturn" }, 
+    { "keys": ["ctrl+alt+y"], "command": "syncronizemethoddeclaration" },
+    { "keys": ["ctrl+alt+f"], "command": "tryfinally" }
+]
