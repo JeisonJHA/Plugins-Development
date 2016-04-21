@@ -5,5 +5,24 @@
   "display_function": true,
   "display_arguments": false,
   "display_visibility": true,
-  "tab_size": 2
+  "tab_size": 2,
+  //---- Declare Method
+  // where to create the method
+  "visibility": "protected",
+  // if the block configured don't exists it will create it.
+  "create_visibility_block": true,
+
+  //ExtractMethod
+  "prefix_param":{
+    "PN":["INTEGER", "DOUBLE"],
+    "PS":["STRING", "WIDESTRING"],
+    "PV":["VARIANT", "OLEVARIANT"],
+    "PB":["BOOLEAN"],
+    "PD":["TDATETIME", "TDATE"],
+    "PSL":["TSTRINGLIST"],
+    "PCDS":["TCLIENTDATASET", "TSPCLIENTDATASET"],
+    "PE":["TE", "TEN"],
+    "P":["ELSE"]
+  },
+  "extract_visibility": "private"
 }

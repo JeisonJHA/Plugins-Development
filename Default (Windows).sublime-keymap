@@ -1,6 +1,5 @@
 [
-    { "keys": ["ctrl+shift+x"], "command": "extractmethod" },
-    { "keys": ["ctrl+shift+c"], "command": "declaremethod" },
+    { "keys": ["ctrl+shift+x"], "command": "extract_method" },
     { "keys": ["ctrl+shift+s"], "command": "changefunctionreturn" }, 
     { "keys": ["ctrl+alt+y"], "command": "syncronizemethoddeclaration" },
     { "keys": ["ctrl+alt+f"], "command": "tryfinally" }
